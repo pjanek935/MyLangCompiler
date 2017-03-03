@@ -1,0 +1,9 @@
+int x
+x = getint
+
+function int power2 int x
+	int val = x * x
+	ret val
+endfunction
+
+print power2(x)
